@@ -3,7 +3,9 @@ import Title from "./components/Title";
 function App() {
   return (
     <>
-      <Title />
+      <div className="App_container">
+        <Title />
+      </div>
     </>
   );
 }
