@@ -1,5 +1,11 @@
+import Title from "./components/Title";
+
 function App() {
-  return <div>Assalomu elkum</div>;
+  return (
+    <>
+      <Title />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,20 @@
+.title_container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+  padding: 10px 0;
+}
+
+.title_App {
+  padding: 10px 50px;
+  width: max-content;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  box-shadow: inset 0px 0px 8px 0px;
+  border-radius: 8px 18px 8px 18px;
+}
+
+.title_App p {
+  color: rgb(71, 116, 175);
+  font-family: "JetBrains", monospace;
+}
