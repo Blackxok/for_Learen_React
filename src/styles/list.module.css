@@ -1,0 +1,8 @@
+.nameSt {
+}
+
+.boxcha {
+  width: calc(var(--size) * 18);
+  height: calc(var(--size) * 2);
+  border: 2px solid rgb(17, 255, 0);
+}
