@@ -1,7 +1,6 @@
-/* eslint-disable react/jsx-no-undef */
 import Title from "./components/Title";
-// import App_head from "./components/App_head";
 import Add_item from "./components/Add_item";
+import List from "./components/List";
 
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
         <Title />
         <div className="App_body">
           <Add_item />
+          <List />
         </div>
       </div>
     </>

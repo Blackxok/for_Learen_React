@@ -6,16 +6,7 @@ function Add_item() {
   return (
     <>
       <div className={add_item_style.additem_container}>
-        {/* <button className={add_item_style.additem_button}>++Add item++</button> */}
-        <div className="con">
-          <a className="but">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Button
-          </a>
-        </div>
+        <button className={add_item_style.btnAdd}>Add Button</button>
       </div>
     </>
   );
