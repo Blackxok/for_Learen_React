@@ -1,16 +1,26 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 
 function List() {
-  const listOfItems = [
+
+  // Up
+  const [listOfItems, setListOfItems] = useState([
     { name: "BMW", price: "50m$" },
     { name: "Tesla", price: "80m$" },
     { name: "Porsche", price: "40m$" },
-  ];
+  ]);
 
+  // Down
   return (
     <>
-      <h1>helluuu</h1>
+      {listOfItems.map((item) => {
+        return (
+          <>
+            <h1 className={}{item.name}</h1>
+            <h3>{item.price}</h3>
+          </>
+        );
+      })}
     </>
   );
 }
