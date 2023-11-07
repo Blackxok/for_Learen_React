@@ -10,9 +10,7 @@ function List() {
 
   return (
     <>
-      {listOfItems.map((item) => {
-        (<h1>{item.name}</h1>), (<h3>{item.price}</h3>);
-      })}
+      <h1>helluuu</h1>
     </>
   );
 }
